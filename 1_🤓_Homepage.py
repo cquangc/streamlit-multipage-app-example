@@ -18,4 +18,4 @@ if submit:
     st.write("You have entered: ", my_input)
     
 if st.button("Click to go to Projects Page"):
-    st.markdown("https://cquangc-streamlit-multipage-app-example-1--homepage-uxb8vo.streamlit.app/Projects")
+    st.markdown("https://cquangc-streamlit-multipage-app-example-1--homepage-uxb8vo.streamlit.app/Projects", unsafe_allow_html=True)
